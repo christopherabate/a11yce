@@ -18,7 +18,7 @@ https://christopherabate.github.io/a11yce/
 # red-queen
 A demo store for accessibility tests
 
-https://christopherabate.github.io/red-queen/
+https://christopherabate.github.io/a11yce/
 
 ## File structure
 ```
