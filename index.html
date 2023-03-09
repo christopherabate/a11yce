@@ -14,7 +14,7 @@
       <div id="cartToast" class="toast align-items-center text-bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="false">
         <div class="d-flex">
           <div class="toast-body">
-            <i class="bi bi-bag-fill" role="img" aria-hidden="true"></i>
+            <i class="bi bi-bag-fill" aria-hidden="true"></i>
             Un article à été ajouté au panier
           </div>
           <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Fermer la notification du panier"></button>
@@ -23,7 +23,7 @@
       <div id="favToast" class="toast align-items-center text-bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="false">
         <div class="d-flex">
           <div class="toast-body">
-            <i class="bi bi-heart-fill" role="img" aria-hidden="true"></i>
+            <i class="bi bi-heart-fill" aria-hidden="true"></i>
             Un article à été ajouté aux favoris
           </div>
           <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Fermer la notification des favoris"></button>
@@ -49,9 +49,9 @@
             <li class="dropdown">
               <a class="btn btn-secondary btn-sm dropdown-toggle ms-1" href="#" aria-current="true" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Afficher les prix en Euro"><abbr title="Euro">EUR</abbr></a>
               <ul class="dropdown-menu dropdown-menu-end">
-                  <li><a class="dropdown-item" href="#" lang="en" hreflang="en" aria-label="Afficher les prix en Great Britain Pound"><abbr lang="en" title="Great Britain Pound">GBP</abbr></a></li>
-                  <li><a class="dropdown-item" href="#" lang="en" hreflang="en" aria-label="Afficher les prix en United States Dollar"><abbr lang="en" title="United States Dollar">USD</abbr></a></li>
-                  <li><a class="dropdown-item" href="#" lang="en" hreflang="en" aria-label="Afficher les prix en Canadian Dollar"><abbr lang="en" title="Canadian Dollar">CAD</abbr></a></li>
+                  <li><a class="dropdown-item" href="#" hreflang="en" aria-label="Afficher les prix en Great Britain Pound"><abbr lang="en" title="Great Britain Pound">GBP</abbr></a></li>
+                  <li><a class="dropdown-item" href="#" hreflang="en" aria-label="Afficher les prix en United States Dollar"><abbr lang="en" title="United States Dollar">USD</abbr></a></li>
+                  <li><a class="dropdown-item" href="#" hreflang="en" aria-label="Afficher les prix en Canadian Dollar"><abbr lang="en" title="Canadian Dollar">CAD</abbr></a></li>
               </ul>
             </li>
           </ul>
@@ -119,20 +119,20 @@
             </ul>
             <ul class="navbar-text flex-shrink list-inline mb-0">
               <li class="list-inline-item">
-                <a href="search.html"><i class="bi bi-search" role="img" aria-label="Rechercher"></i></a>
+                <a href="search.html"><i class="bi bi-search" aria-hidden="true"></i><span class="visually-hidden">Rechercher</span></a>
               </li>
               <li class="list-inline-item">
-                <a href="#"><i class="bi bi-person" role="img" aria-label="Mon compte"></i></a>
+                <a href="#"><i class="bi bi-person" aria-hidden="true"></i><span class="visually-hidden">Mon compte</span></a>
               </li>
               <li class="list-inline-item">
                 <a href="#" class="position-relative">
-                  <i class="bi bi-heart text-danger" role="img" aria-label="Mes favoris"></i>
+                  <i class="bi bi-heart text-danger" aria-hidden="true"></i><span class="visually-hidden">Mes favoris</span>
                   <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill text-bg-dark">0 <span class="visually-hidden">articles favoris</span></span>
                 </a>
               </li>
               <li class="list-inline-item">
                 <a href="cart.html" class="position-relative">
-                  <i class="bi bi-bag text-warning" role="img" aria-label="Mon panier"></i>
+                  <i class="bi bi-bag text-warning" aria-hidden="true"></i><span class="visually-hidden">Mon panier</span>
                   <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill text-bg-dark">3 <span class="visually-hidden">articles dans le panier</span></span>
                 </a>
               </li>
@@ -166,8 +166,8 @@
                     <li><span class="badge rounded-pill text-bg-warning">-10% <span class="visually-hidden">de réduction</span></span></li>
                   </ul>
                   <div class="position-absolute top-50 start-50 translate-middle">
-                    <button type="button" class="btn btn-outline-dark fav-toast"><i class="bi bi-heart-fill" role="img" aria-label="Ajouter Sac cuir caramel aux favoris"></i></button>
-                    <button type="button" class="btn btn-outline-dark cart-toast"><i class="bi bi-bag-fill" role="img" aria-label="Ajouter Sac cuir caramel au panier"></i></button>
+                    <button type="button" class="btn btn-outline-dark fav-toast"><i class="bi bi-heart-fill" aria-hidden="true"></i><span class="visually-hidden">Ajouter Sac cuir caramel aux favoris</span></button>
+                    <button type="button" class="btn btn-outline-dark cart-toast"><i class="bi bi-bag-fill" aria-hidden="true"></i><span class="visually-hidden">Ajouter Sac cuir caramel au panier</span></button>
                   </div>
                 </div>
               </div>
@@ -186,8 +186,8 @@
                     <li><span class="badge rounded-pill text-bg-primary">Nouveau <span class="visually-hidden">produit</span></span></li>
                   </ul>
                   <div class="position-absolute top-50 start-50 translate-middle">
-                    <button type="button" class="btn btn-outline-dark fav-toast"><i class="bi bi-heart-fill" role="img" aria-label="Ajouter Sac cuir rouge aux favoris"></i></button>
-                    <button type="button" class="btn btn-outline-dark cart-toast"><i class="bi bi-bag-fill" role="img" aria-label="Ajouter Sac cuir rouge au panier"></i></button>
+                    <button type="button" class="btn btn-outline-dark fav-toast"><i class="bi bi-heart-fill" aria-hidden="true"></i><span class="visually-hidden">Ajouter Sac cuir rouge aux favoris</span></button>
+                    <button type="button" class="btn btn-outline-dark cart-toast"><i class="bi bi-bag-fill" aria-hidden="true"></i><span class="visually-hidden">Ajouter Sac cuir rouge au panier</span></button>
                   </div>
                 </div>
               </div>
@@ -206,8 +206,8 @@
                     <li><span class="badge rounded-pill text-bg-primary">Nouveau <span class="visually-hidden">produit</span></span></li>
                   </ul>
                   <div class="position-absolute top-50 start-50 translate-middle">
-                    <button type="button" class="btn btn-outline-dark fav-toast"><i class="bi bi-heart-fill" role="img" aria-label="Ajouter Sac cuir noir aux favoris"></i></button>
-                    <button type="button" class="btn btn-outline-dark cart-toast"><i class="bi bi-bag-fill" role="img" aria-label="Ajouter Sac cuir noir au panier"></i></button>
+                    <button type="button" class="btn btn-outline-dark fav-toast"><i class="bi bi-heart-fill" aria-hidden="true"></i><span class="visually-hidden">Ajouter Sac cuir noir aux favoris</span></button>
+                    <button type="button" class="btn btn-outline-dark cart-toast"><i class="bi bi-bag-fill" aria-hidden="true"></i><span class="visually-hidden">Ajouter Sac cuir noir au panier</span></button>
                   </div>
                 </div>
               </div>
@@ -227,8 +227,8 @@
                     <li><span class="badge rounded-pill text-bg-warning">-10% <span class="visually-hidden">de réduction</span></span></li>
                   </ul>
                   <div class="position-absolute top-50 start-50 translate-middle">
-                    <button type="button" class="btn btn-outline-dark fav-toast"><i class="bi bi-heart-fill" role="img" aria-label="Ajouter Sac cuir marron aux favoris"></i></button>
-                    <button type="button" class="btn btn-outline-dark cart-toast"><i class="bi bi-bag-fill" role="img" aria-label="Ajouter Sac cuir marron au panier"></i></button>
+                    <button type="button" class="btn btn-outline-dark fav-toast"><i class="bi bi-heart-fill" aria-hidden="true"></i><span class="visually-hidden">Ajouter Sac cuir marron aux favoris</span></button>
+                    <button type="button" class="btn btn-outline-dark cart-toast"><i class="bi bi-bag-fill" aria-hidden="true"></i><span class="visually-hidden">Ajouter Sac cuir marron au panier</span></button>
                   </div>
                 </div>
               </div>
@@ -253,8 +253,8 @@
                         <li><span class="badge rounded-pill text-bg-warning">-20% <span class="visually-hidden">de réduction</span></span></li>
                       </ul>
                       <div class="position-absolute top-50 start-50 translate-middle">
-                        <button type="button" class="btn btn-outline-dark fav-toast"><i class="bi bi-heart-fill" role="img" aria-label="Ajouter T-shirt vert aux favoris"></i></button>
-                        <button type="button" class="btn btn-outline-dark cart-toast"><i class="bi bi-bag-fill" role="img" aria-label="Ajouter T-shirt vert au panier"></i></button>
+                        <button type="button" class="btn btn-outline-dark fav-toast"><i class="bi bi-heart-fill" aria-hidden="true"></i><span class="visually-hidden">Ajouter T-shirt vert aux favoris</span></button>
+                        <button type="button" class="btn btn-outline-dark cart-toast"><i class="bi bi-bag-fill" aria-hidden="true"></i><span class="visually-hidden">Ajouter T-shirt vert au panier</span></button>
                       </div>
                     </div>
                   </div>
@@ -270,8 +270,8 @@
                     <a href="#" class="stretched-link" aria-label="T-shirt violet 20€"><img src="assets/images/product-t-shirt-2.jpg" class="card-img-top" alt=""></a>
                     <div class="card-img-overlay">
                       <div class="position-absolute top-50 start-50 translate-middle">
-                        <button type="button" class="btn btn-outline-dark fav-toast"><i class="bi bi-heart-fill" role="img" aria-label="Ajouter T-shirt violet aux favoris"></i></button>
-                        <button type="button" class="btn btn-outline-dark cart-toast"><i class="bi bi-bag-fill" role="img" aria-label="Ajouter T-shirt violet au panier"></i></button>
+                        <button type="button" class="btn btn-outline-dark fav-toast"><i class="bi bi-heart-fill" aria-hidden="true"></i><span class="visually-hidden">Ajouter T-shirt violet aux favoris</span></button>
+                        <button type="button" class="btn btn-outline-dark cart-toast"><i class="bi bi-bag-fill" aria-hidden="true"></i><span class="visually-hidden">Ajouter T-shirt violet au panier</span></button>
                       </div>
                     </div>
                   </div>
@@ -287,8 +287,8 @@
                     <a href="#" class="stretched-link" aria-label="T-shirt bleu 20€"><img src="assets/images/product-t-shirt-3.jpg" class="card-img-top" alt=""></a>
                     <div class="card-img-overlay">
                       <div class="position-absolute top-50 start-50 translate-middle">
-                        <button type="button" class="btn btn-outline-dark fav-toast"><i class="bi bi-heart-fill" role="img" aria-label="Ajouter T-shirt bleu aux favoris"></i></button>
-                        <button type="button" class="btn btn-outline-dark cart-toast"><i class="bi bi-bag-fill" role="img" aria-label="Ajouter T-shirt bleu au panier"></i></button>
+                        <button type="button" class="btn btn-outline-dark fav-toast"><i class="bi bi-heart-fill" aria-hidden="true"></i><span class="visually-hidden">Ajouter T-shirt bleu aux favoris</span></button>
+                        <button type="button" class="btn btn-outline-dark cart-toast"><i class="bi bi-bag-fill" aria-hidden="true"></i><span class="visually-hidden">Ajouter T-shirt bleu au panier</span></button>
                       </div>
                     </div>
                   </div>
@@ -304,8 +304,8 @@
                     <a href="#" class="stretched-link" aria-label="T-shirt rouge 20€"><img src="assets/images/product-t-shirt-4.jpg" class="card-img-top" alt=""></a>
                     <div class="card-img-overlay">
                       <div class="position-absolute top-50 start-50 translate-middle">
-                        <button type="button" class="btn btn-outline-dark fav-toast"><i class="bi bi-heart-fill" role="img" aria-label="Ajouter T-shirt rouge aux favoris"></i></button>
-                        <button type="button" class="btn btn-outline-dark cart-toast"><i class="bi bi-bag-fill" role="img" aria-label="Ajouter T-shirt rouge au panier"></i></button>
+                        <button type="button" class="btn btn-outline-dark fav-toast"><i class="bi bi-heart-fill" aria-hidden="true"></i><span class="visually-hidden">Ajouter T-shirt rouge aux favoris</span></button>
+                        <button type="button" class="btn btn-outline-dark cart-toast"><i class="bi bi-bag-fill" aria-hidden="true"></i><span class="visually-hidden">Ajouter T-shirt rouge aux favoris</span></button>
                       </div>
                     </div>
                   </div>
@@ -340,9 +340,9 @@
               <p class="fs-3 fw-lighter" style="font-family: 'Montserrat', sans-serif;">A<span class="fw-bold">11</span>YCE</p>
               <p>Cette boutique est factice et sert de support à des tests d'accessibilité numérique.</p>
               <ul class="nav list-unstyled">
-                <li class="me-3"><a href="#"><i class="bi bi-twitter" role="img" aria-label="Twitterr"></i></a></li>
-                <li class="me-3"><a href="#"><i class="bi bi-instagram" role="img" aria-label="Instagram"></i></a></li>
-                <li class="me-3"><a href="#"><i class="bi bi-facebook" role="img" aria-label="Facebook"></i></a></li>
+                <li class="me-3"><a href="#"><i class="bi bi-twitter" aria-hidden="true"></i> <span class="visually-hidden">Twitter</span></a></li>
+                <li class="me-3"><a href="#"><i class="bi bi-instagram" aria-hidden="true"></i><span class="visually-hidden">Instagram</span></a></li>
+                <li class="me-3"><a href="#"><i class="bi bi-facebook" aria-hidden="true"></i><span class="visually-hidden">Facebook</span></a></li>
               </ul>
             </div>
             <div class="col mb-3">
