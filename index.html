@@ -122,7 +122,10 @@
             </ul>
             <ul class="navbar-text flex-shrink list-inline mb-0">
               <li class="list-inline-item">
-                <a href="search.html"><i class="bi bi-search" aria-hidden="true"></i><span class="visually-hidden">Rechercher</span></a>
+                <form action="search.html" role="search" class="d-flex">
+                  <input name="q" id="q" class="form-control" type="search" placeholder="Rechercher" aria-label="Rechercher">
+                  <button type="submit" class="btn"><i class="bi bi-search" aria-hidden="true"></i><span class="visually-hidden">Rechercher</span></button>
+                </form>
               </li>
               <li class="list-inline-item">
                 <a href="#"><i class="bi bi-person" aria-hidden="true"></i><span class="visually-hidden">Mon compte</span></a>
