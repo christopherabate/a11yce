@@ -157,7 +157,7 @@
               <div class="row gy-3 py-5">
                 <div class="col-6">
                   <label for="Prénom" class="form-label">Prénom</label>
-                  <input type="text" class="form-control" id="first name" placeholder="Indiquer votre prénom" value="" required="true" autocomplete="true">
+                  <input type="text" class="form-control" id="first name" placeholder="Indiquer votre prénom" value="" required="true" autocomplete="on">
                   <div class="invalid-feedback">
                     Un prénom valide est requis
                   </div>
@@ -165,7 +165,7 @@
 
                 <div class="col-6">
                   <label for="Nom" class="form-label">Nom</label>
-                  <input type="text" class="form-control" id="last name" placeholder="Indiquer votre nom" value="" required="true" autocomplete="true">
+                  <input type="text" class="form-control" id="last name" placeholder="Indiquer votre nom" value="" required="true" autocomplete="on">
                   <div class="invalid-feedback">
                     Un nom valide est requis
                   </div>
@@ -173,7 +173,7 @@
 
                 <div class="col-12">
                   <label for="email" class="form-label">Email<span class="text-muted">(Optionnel)</span></label>
-                  <input type="email" class="form-control" id="email" placeholder="exemple: you@example.com" autocomplete="true">
+                  <input type="email" class="form-control" id="email" placeholder="exemple: you@example.com" autocomplete="on">
                   <div class="invalid-feedback">
                     Merci d'indiquer une adresse email valide pour recevoir les informations d'expédition
                   </div>
@@ -220,7 +220,7 @@
 
                 <div class="col-3">
                   <label for="Code postal" class="form-label">Code postal</label>
-                  <input type="text" class="form-control" id="zip" placeholder="exemple: 95110" required="true">
+                  <input type="text" class="form-control" id="zip" placeholder="exemple: 95110" required="true" autocomplete="on">
                   <div class="invalid-feedback">
                     Le code postal est obligatoire
                   </div>
@@ -229,20 +229,20 @@
               <h2 class="fw-bold text-uppercase">Informations de paiement</h2>
               <div class="row gy-3 py-5">
                 <div class="col-6">
-                  <label for="Nom présent sur la carte banquaire" class="form-label">Nom de la carte banquaire</label>
+                  <label for="Nom présent sur la carte bancaire" class="form-label">Nom sur la carte bancaire</label>
                   <input type="text" class="form-control" id="cc-name" placeholder="" required="true">
-                  <small class="text-muted">Nom complet présent sur la carte banquaire.</small>
+                  <small class="text-muted">Nom complet présent sur la carte bancaire.</small>
                   <div class="invalid-feedback">
-                    Le nom du pocesseur de la carte banquaire est obligatoire
+                    Le nom du pocesseur de la carte bancaire est obligatoire
                   </div>
                 </div>
 
                 <div class="col-6">
-                  <label for="Numéro présent sur la carte banquaire" class="form-label">Numéro de carte bleu</label>
+                  <label for="Numéro présent sur la carte bancaire" class="form-label">Numéro de carte bancaire</label>
                   <input type="text" class="form-control" id="cc-number" placeholder="exemple: 4976 4562 2356 4578" required="true">
-                  <small class="text-muted">Série de 16 chiffres indiqués sur la carte banquaire.</small>
+                  <small class="text-muted">Série de 16 chiffres indiqués sur la carte bancaire.</small>
                   <div class="invalid-feedback">
-                    Les 16 chiffres indiqués sur la carte banquaire sont obligatoire
+                    Les 16 chiffres indiqués sur la carte bancaire sont obligatoire
                   </div>
                 </div>
 
